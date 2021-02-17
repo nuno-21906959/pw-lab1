@@ -1,0 +1,58 @@
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<h1 style = "text-align:center" >Report</h1>
+<h3>Endereços IP</h3>
+<h4>Meu IP</h4>
+<p>A informação referente ao meu IP é:</p>
+<br>
+<table>
+  <tr>
+    <th><img src = "img/meuipinfo.png"></img></th>
+    <th><img src = "img/meuipmapa.png"></img></th>
+  </tr>
+</table>
+<h4>IP Heroku</h4>
+<p>Pingado o DNS do heroku obtemos o IP:</p>
+<img src = "img/ping.png"></img>
+<p>A informação referente ao IP do Heroku é:</p>
+<img src = "img/herokuipinfo.png" style="width:550px"></img>
+<h3>Percurso</h3>
+<table>
+  <tr>
+    <th><img src = "img/worldheroku.png" style="width:250px"></img></th>
+    <th><img src = "img/jumpsheroku.png"></img></th>
+  </tr>
+</table>
+<h3>Inspect</h3>
+<p>Ao usarmos a ferramenta de Inspect obtemos diversas informações sobre o web site.</p>
+<p>Na secção "Network" podemos ver os ficheiros que são descarregados para ser possivel visualizar o web site, bem como o tempo que demorou a fazê-lo:</p>
+<img src = "img/infonetwork.png"></img>
+<p>Ao abrir a app no heroku são descarregados 2 ficheiros:</p>
+<ul>
+<li>O ficheiro index.html</li>
+<li>A imagem "worldcloud.png"</li>
+</ul>
+<p>Estes ficheiros tiveram os seguintes tempos:</p>
+<table>
+  <tr>
+    <th><img src = "img/indextime.png" style="width:250px"></img></th>
+    <th><ul>
+	<li>Tempo de Espera: 47ms</li>
+	<li>Tempo de Descarga: 4ms</li>
+	</ul>
+	</th>
+  </tr>
+<tr>
+    <th><img src = "img/wordcloudtime.png" style="width:250px"></img></th>
+    <th><ul>
+	<li>Tempo de Espera: 47ms</li>
+	<li>Tempo de Descarga: 0.4ms</li>
+	</ul>
+	</th>
+  </tr>
+</table>
+<p>Na tab "Headers" obtemos toda a informaçao dentro da tag <head> do documento HTML</p>
+<p>Na tab "Preview" obtemos uma pré-visualização de cada ficheiro (neste caso o HTML e a imagem)</p>
+<p>Na tab "Timing" obtemos informação sobre os tempos de Queue e Transferência dos ficheiros</p>
