@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>PW Lab2 (Busan)</title>
+        <meta name="author" content="Nuno Rasteiro">
+        <meta name="keywords" content="busan, coreia do sul">
+        <meta name="description" content="Website sobre Busan">
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/> 
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta name="language" content="pt-br" />
+        <meta http-equiv="Content-Language" content="pt-br" />   
+</head>
+    <body style="background-color:rgb(231, 231, 231)">
+        <center>
+            <h1>Busan</h1>
+            <img src="img/city.jpeg" style = "width:300px"></img>
+            <br>
+            <a href = "index.html">Introdução</a> | <a href = "local.html">Localização</a> | <a href = "multimedia.html">Multimédia</a> | <a href = "info.html">Informações</a> | <b><a href = "quizz.html">Quizz</a></b> | <a href = "comentarios.html">Comentários</a> |<a href = "../index.html">Home</a>
+            <br>
+        </center>
+        <h3>Quizz</h3>
+        <form method="post" action="mailto:nunomrasteiro@gmail.com">
+            <fieldset>
+              <legend>Informação Pessoal:</legend>
+              <label for="fname">Primeiro Nome</label>
+              <input type="text" id="fname" name="fname" size="19" autofocus placeholder="João" autocomplete="given-name" maxlength="20" required><br><br>
+              <label for="lname">Ultimo Nome:</label>
+              <input type="text" id="lname" name="lname" placeholder="Ratão" autocomplete="family-name"maxlength="20" required><br><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" size="27" placeholder="joao.ratao@ratomail.com" autocomplete="on" required><br><br>
+              <label for ="birthday">Data de Nascimento:</label>
+              <input type="date" id="birthday" required>
+            </fieldset>
+            <fieldset>
+                <legend>Quizz</legend>
+                <label for="qparte"><p>1. Em que parte da Coreia do Sul fica Busan?</p></label>
+                <input type="radio" id="norte" name="qparte" value="norte">
+                <label for="norte">Norte</label><br>
+                <input type="radio" id="sul" name="qparte" value="sul">
+                <label for="sul">Sul</label><br>
+                <label for="qano"><p>2. Em que ano acolheu o Campeonato do Mundo de Futebol?</p></label>
+                <input list="qanos" name="qano" id="qano" placeholder="1998">
+                <datalist id="qanos">
+                  <option value="1998">
+                  <option value="2002">
+                  <option value="2006">
+                  <option value="2010">
+                </datalist><br>
+                <label for="qpontosturisticos"><p>3. Quais dos seguintes locais são pontos turisticos comuns?</p></label>
+                <input type="checkbox" id="ponto1" name="ponto1" value="busantower">
+                <label for="ponto1"> Torre de Busan</label><br>
+                <input type="checkbox" id="ponto2" name="ponto2" value="Car">
+                <label for="ponto2"> Praia das Maças</label><br>
+                <input type="checkbox" id="ponto3" name="ponto3" value="beomeosa">
+                <label for="ponto3"> Beomeosa</label><br>
+                <label for="qpopulacao"><p>3. Qual a população, em milhoes, de Busan?</p></label>
+                <input type="number" id="qpopulacao" name="qpopulacao" min="1" max="4.0" step="0.5" value="1"><br>
+                <label for ="qlocalizacao"><p>4. Indique onde se situa Busan, na imagem abaixo</p></label>
+                <input type="image" id ="qlocalizacao" src="img/quizz_map.png" alt="Submit" >
+                <label for ="qcor"><p>5. Qual a cor predominante da bandeira de Busan?</p></label>
+                <input type="color" id="qcor" name="qcor" value="#ffffff">
+                <label for ="qcor"><p>6. Indique quais das afirmações são verdadeiras.</p></label>
+                <select name="nomecidade" id="nomecidade" multiple>
+                    <option value="1">Busan é a cidade mais populosa do mundo.</option>
+                    <option value="2">Busan é a 2º cidade mais populosa da Coreia do Sul.</option>
+                    <option value="3">Busan tem o 6º maior porto do mundo.</option>
+                    <option value="4">A sua bandeira tem a cor amarela, simbolizando o fruto nacional, as bananas.</option>
+                </select>
+                <label for="qinteresse"><p>Qual é o seu nível de interesse nesta cidade?</p></label><br>
+                <input type="range" id="qinteresse" name="qinteresse" min="0" max="5">
+                <br>
+                <input type="submit" value="Submit">
+              </fieldset>
+          </form>
+    </body>
+</html>
