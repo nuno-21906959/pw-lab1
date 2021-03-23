@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt">
     <head>
-        <title>PW Lab3 (Busan)</title>
+        <title>PW Lab4 (Busan)</title>
         <meta name="author" content="Nuno Rasteiro">
         <meta name="keywords" content="busan, coreia do sul">
         <meta name="description" content="Website sobre Busan">
@@ -9,15 +9,28 @@
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="language" content="pt-br" />
         <meta http-equiv="Content-Language" content="pt-br" />   
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-    <body style="background-color:rgb(231, 231, 231)">
-        <center>
+    <body>
+        <header>
             <h1>Busan</h1>
             <img src="img/city.jpeg" style = "width:300px"></img>
             <br>
-            <a href = "index.html">Introdução</a> | <a href = "local.html">Localização</a> | <a href = "multimedia.html">Multimédia</a> | <a href = "info.html">Informações</a> | <b><a href = "quizz.html">Quizz</a></b> | <a href = "comentarios.html">Comentários</a> |<a href = "../index.html">Home</a>
+            <nav>
+                <a href = "index.html" id="index"><i class="material-icons">list</i></a> 
+                <a href = "local.html" id="local"><i class="material-icons">fmd_good</i></a>
+                <a href = "multimedia.html" id="multimedia"><i class="material-icons">perm_media</i></a>
+                <a href = "info.html" id="info"><i class="material-icons">info</i></a>
+                <a href = "quizz.html" id="quizz" target="_blank"><i class="material-icons">contact_support</i></a>
+                <a href = "comentarios.html" id="coment"><i class="material-icons">question_answer</i></a> 
+                <a href = "html5-css.html" id="html5css"><i class="material-icons">code</i></a> 
+                <a href = "../index.html" id="home"><i class="material-icons">home</i></a>
+            </nav>
             <br>
-        </center>
+        </header>
+        <main>
+            <section>
         <h3>Quizz</h3>
         <form method="post" action="mailto:nunomrasteiro@gmail.com">
             <fieldset>
@@ -72,5 +85,10 @@
                 <input type="submit" value="Submit">
               </fieldset>
           </form>
-    </body>
+        </section>
+        </main>
+        <footer>
+            Nuno Rasteiro - a21906959 || ULHT 2021
+        </footer>
+        </body>
 </html>

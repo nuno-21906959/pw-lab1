@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>PW Lab4 (Busan)</title>
+        <meta name="author" content="Nuno Rasteiro">
+        <meta name="keywords" content="busan, coreia do sul">
+        <meta name="description" content="Website sobre Busan">
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/> 
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta name="language" content="pt-br" />
+        <meta http-equiv="Content-Language" content="pt-br" />
+        <link rel="stylesheet" href="styles.css">   
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+    <body>
+    <header>
+        <h1>Busan</h1>
+        <img src="img/city.jpeg"></img>
+        <br>
+        <nav>
+            <a href = "index.html" id="index"><i class="material-icons">list</i></a> 
+            <a href = "local.html" id="local"><i class="material-icons">fmd_good</i></a>
+            <a href = "multimedia.html" id="multimedia"><i class="material-icons">perm_media</i></a>
+            <a href = "info.html" id="info"><i class="material-icons">info</i></a>
+            <a href = "quizz.html" id="quizz"><i class="material-icons">contact_support</i></a>
+            <a href = "comentarios.html" id="coment"><i class="material-icons">question_answer</i></a> 
+            <a href = "html5-css.html" id="html5css" target="_blank"><i class="material-icons">code</i></a> 
+            <a href = "../index.html" id="home"><i class="material-icons">home</i></a>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h3>HTML5 e CSS</h3>
+            
+            <p>É a quinta versão da linguagem HTML. Esta nova versão traz consigo importantes mudanças quanto ao papel do HTML no mundo da Web, através de novas funcionalidades como semântica e acessibilidade. Possibilita o uso de novos recursos antes possíveis apenas com a aplicação de outras tecnologias. Sua essência tem sido melhorar a linguagem com o suporte para as mais recentes multimídias, enquanto a mantém facilmente legível por seres humanos e consistentemente compreendida por computadores e outros dispositivos</p>
+            
+            <table class="tab">
+                <thead>
+                    <tr>
+                        <th>Elemento HTML</th>
+                        <th>Utilizado</th>
+                        <th>Descrição / Onde ?</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <td>header</td>
+                        <td><i class="material-icons" style="color:green;">done_outline</i></td>
+                        <td>Indica cabeçalho / Utilizado em todas as páginas</td>
+                    </tr>
+                    <tr>
+                        <td>nav</td>
+                        <td><i class="material-icons" style="color:green;">done_outline</i></td>
+                        <td>Indica menu de navegação / Utilizado em todas as páginas</td>
+                    </tr>
+                    <tr>
+                        <td>main</td>
+                        <td><i class="material-icons" style="color:green;">done_outline</i></td>
+                        <td>Indica conteúdo principal e único, que não se repete / Utilizado em todas as páginas</td>
+                    </tr>
+                    <tr>
+                        <td>article</td>
+                        <td><i class="material-icons" style="color:red;">disabled_by_default</i></td>
+                        <td>Indica porção do documento que pode ser viste de forma independente</td>
+                    </tr>
+                    <tr>
+                        <td>section</td>
+                        <td><i class="material-icons" style="color:green;">done_outline</i></td>
+                        <td>Especifica uma parte do conteúdo / Utilizado em todas as páginas</td>
+                    </tr>
+                    <tr>
+                        <td>aside</td>
+                        <td><i class="material-icons" style="color:red;">disabled_by_default</i></td>
+                        <td>Indica anotações, publicidade ou outros assuntos desconexos</td>
+                    </tr>
+                    <tr>
+                        <td>footer</td>
+                        <td><i class="material-icons" style="color:green;">done_outline</i></td>
+                        <td>Indica rodapé da secção (c/ copyright) / Utilizado em todas as páginas</td>
+                    </tr>
+
+            </table>
+        </section>
+
+        <section>
+            <p>Cascading Style Sheets (CSS) é um mecanismo para adicionar estilo (cores, fontes, espaçamento, etc.) a um documento web.</p>
+            <p>O código CSS pode ser aplicado diretamente nas tags ou ficar contido dentro das tags style. Também é possível, em vez de colocar a formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos. Assim, quando se quiser alterar a aparência dos documentos vinculados a este arquivo CSS, basta modificá-lo.</p>
+        
+            <table class="tab">
+                <thead>
+                    <tr>
+                        <th>Seletor CSS</th>
+                        <th>Utilizado</th>
+                        <th>Descrição / Onde ?</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Universal *{}</td>
+                    <td><i class="material-icons" style="color:green;">done_outline</i></td>
+                    <td>Aplica o estilo a todos os elementos da página / Usei para definir a font</td>
+                </tr>
+                <tr>
+                    <td>Tipo {}</td>
+                    <td><i class="material-icons" style="color:green;">done_outline</i></td>
+                    <td>Aplica o estilo a todos os marcadores com o mesmo nome / Usei por exemplo no nav</td>
+                </tr>
+                <tr>
+                    <td>Classe .{}</td>
+                    <td><i class="material-icons" style="color:green;">done_outline</i></td>
+                    <td>Aplica o estilo a todos os elementos da classe / Usei por exemplo nas tabelas</td>
+                </tr>
+                <tr>
+                    <td>id #{}</td>
+                    <td><i class="material-icons" style="color:green;">done_outline</i></td>
+                    <td>Aplica o estilo a todos os elementos com o mesmo id / Usei por exemplo no menu do header</td>
+                </tr>
+                <tr>
+                    <td>atributo a[]{}</td>
+                    <td><i class="material-icons" style="color:green;">done_outline</i></td>
+                    <td>Aplica o estilo a todos os elementos com o mesmo atributo / Usei por exemplo no menu do header para meter a bold</td>
+                </tr>
+                <tr>
+                    <td>pseudo-classe x:y{}</td>
+                    <td><i class="material-icons" style="color:green;">done_outline</i></td>
+                    <td>Aplica o estilo a todos os elementos com o mesmo estado / Usei por exemplo nas cores dos links</td>
+                </tr>
+                <tr>
+                    <td>pseudo-elemento ::z{}</td>
+                    <td><i class="material-icons" style="color:green;">done_outline</i></td>
+                    <td>Aplica o estilo a partes de elementos / Usei por exemplo para meter o texto no menu</td>
+                </tr>
+                </table>
+        </section>
+    </main>
+    <footer>
+       <p>Nuno Rasteiro - a21906959 || ULHT 2021</p>
+    </footer>
+    </body>
+</html>

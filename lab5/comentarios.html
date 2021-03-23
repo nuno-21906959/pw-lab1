@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>PW Lab5 (Busan)</title>
+        <meta name="author" content="Nuno Rasteiro">
+        <meta name="keywords" content="busan, coreia do sul">
+        <meta name="description" content="Website sobre Busan">
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/> 
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta name="language" content="pt-br" />
+        <meta http-equiv="Content-Language" content="pt-br" /> 
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+       
+</head>
+    <body>
+      <main>
+        <header>
+            <h1>Busan</h1>
+            <img src="img/city.jpeg" style = "width:300px"></img>
+            <br>
+            <div class=flex-container>
+              <nav>
+                  <div class="menu1">
+                  <a href = "../index.html" id="home"><i class="material-icons">home</i></a>
+                  <a href = "index.html" id="index" target="_blank"><i class="material-icons">list</i></a> 
+                  <a href = "local.html" id="local"><i class="material-icons">fmd_good</i></a>
+                  <a href = "multimedia.html" id="multimedia"><i class="material-icons">perm_media</i></a>
+                  <a href = "info.html" id="info"><i class="material-icons">info</i></a>
+              </div>
+              <div class="spacer"></div>
+              <div class="menu2">
+                  <a href = "html5-css.html" id="html5css"><i class="material-icons">code</i></a> 
+                  <a href = "quizz.html" id="quizz"><i class="material-icons">contact_support</i></a>
+                  <a href = "comentarios.html" id="coment"><i class="material-icons">question_answer</i></a> 
+                  
+              </div>
+                  
+              </nav>
+          </div>
+            <br>
+        </header>
+        
+        <section>
+          <h3>Comentarios</h3>
+          <form method="post" action="mailto:nunomrasteiro@gmail.com">
+            <table class="tab">
+              <input type="hidden" id="comlab" name="comlab" value="4">
+              <caption>Por favor avalie o website (1-5)</caption>
+              <thead>
+              <tr>
+                <th></th>
+                <th>⭐</th>
+                <th>⭐⭐</th>
+                <th>⭐⭐⭐</th>
+                <th>⭐⭐⭐⭐</th>
+                <th>⭐⭐⭐⭐⭐</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td>Clareza</td>
+                <td><input type="radio" id="c1" name="clareza" value="1"></td>
+                <td><input type="radio" id="c2" name="clareza" value="2"></td>
+                <td><input type="radio" id="c3" name="clareza" value="3"></td>
+                <td><input type="radio" id="c4" name="clareza" value="4"></td>
+                <td><input type="radio" id="c5" name="clareza" value="5"></td>
+              </tr>
+              <tr>
+                <td>Rigor</td>
+                <td><input type="radio" id="r1" name="rigor" value="1"></td>
+                <td><input type="radio" id="r2" name="rigor" value="2"></td>
+                <td><input type="radio" id="r3" name="rigor" value="3"></td>
+                <td><input type="radio" id="r4" name="rigor" value="4"></td>
+                <td><input type="radio" id="r5" name="rigor" value="5"></td>
+              </tr>
+              <tr>
+                <td>Precisão</td>
+                <td><input type="radio" id="p1" name="precisao" value="1"></td>
+                <td><input type="radio" id="p2" name="precisao" value="2"></td>
+                <td><input type="radio" id="p3" name="precisao" value="3"></td>
+                <td><input type="radio" id="p4" name="precisao" value="4"></td>
+                <td><input type="radio" id="p5" name="precisao" value="5"></td>
+              </tr>
+              <tr>
+                <td>Profundidade</td>
+                <td><input type="radio" id="profund1" name="profundidade" value="1"></td>
+                <td><input type="radio" id="profund2" name="profundidade" value="2"></td>
+                <td><input type="radio" id="profund3" name="profundidade" value="3"></td>
+                <td><input type="radio" id="profund4" name="profundidade" value="4"></td>
+                <td><input type="radio" id="profund5" name="profundidade" value="5"></td>
+              </tr>
+              <tr>
+                <td>Amplitude</td>
+                <td><input type="radio" id="a1" name="amplitude" value="1"></td>
+                <td><input type="radio" id="a2" name="amplitude" value="2"></td>
+                <td><input type="radio" id="a3" name="amplitude" value="3"></td>
+                <td><input type="radio" id="a4" name="amplitude" value="4"></td>
+                <td><input type="radio" id="a5" name="amplitude" value="5"></td>
+              </tr>
+              <tr>
+                <td>Lógica</td>
+                <td><input type="radio" id="l1" name="logica" value="1"></td>
+                <td><input type="radio" id="l2" name="logica" value="2"></td>
+                <td><input type="radio" id="l3" name="logica" value="3"></td>
+                <td><input type="radio" id="l4" name="logica" value="4"></td>
+                <td><input type="radio" id="l5" name="logica" value="5"></td>
+              </tr>
+              <tr>
+                <td>Significância</td>
+                <td><input type="radio" id="s1" name="significancia" value="1"></td>
+                <td><input type="radio" id="s2" name="significancia" value="2"></td>
+                <td><input type="radio" id="s3" name="significancia" value="3"></td>
+                <td><input type="radio" id="s4" name="significancia" value="4"></td>
+                <td><input type="radio" id="s5" name="significancia" value="5"></td>
+              </tr>
+              <tr>
+                <td>Originalidade</td>
+                <td><input type="radio" id="o1" name="originalidade" value="1"></td>
+                <td><input type="radio" id="o2" name="originalidade" value="2"></td>
+                <td><input type="radio" id="o3" name="originalidade" value="3"></td>
+                <td><input type="radio" id="o4" name="originalidade" value="4"></td>
+                <td><input type="radio" id="o5" name="originalidade" value="5"></td>
+              </tr>
+              <tbody>
+            </table>
+            <textarea id="review" name="review" rows="4" cols="67">Escreva aqui qualquer sugestão ou opinião que acha pertinente...
+              </textarea><br>
+              <input type="submit" value="Submit">
+
+            </form>
+        </section>
+        </main>
+        <aside class = "aside1">
+          <p>Esquerda</p>
+      </aside>
+      <aside class = "aside2">
+          <p>Direita</p>
+      </aside>
+          <footer>
+            Nuno Rasteiro - a21906959 || ULHT 2021
+        </footer>
+        </body>
+</html>
